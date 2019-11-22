@@ -5,8 +5,6 @@ import ru.spb.andrey.model.AbstractField;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.util.Arrays;
-import java.util.List;
 
 @Entity
 @Table ( name = "simple_int_column_part" )
@@ -19,6 +17,13 @@ public class GenSimpleIntColumn extends AbstractField {
     // if column is 6 value is single: cargo_place_count
 
     public GenSimpleIntColumn() {
+    }
+
+    public GenSimpleIntColumn(Integer id, @Range @NotNull int number, @NotNull int value1, int value2) {
+        super(id);
+        this.number = number;
+        this.value1 = value1;
+        this.value2 = value2;
     }
 
     public GenSimpleIntColumn(Integer id) {

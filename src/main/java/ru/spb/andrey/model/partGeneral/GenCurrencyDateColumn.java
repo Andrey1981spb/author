@@ -2,7 +2,7 @@ package ru.spb.andrey.model.partGeneral;
 
 import java.time.LocalDate;
 
-public class CurrencyDateColumn {
+public class GenCurrencyDateColumn {
 
     // Column 21 DT
 

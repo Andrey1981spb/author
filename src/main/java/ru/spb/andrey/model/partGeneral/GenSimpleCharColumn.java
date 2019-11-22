@@ -1,6 +1,6 @@
 package ru.spb.andrey.model.partGeneral;
 
-public class SimpleCharColumn {
+public class GenSimpleCharColumn {
 
     // Columns 1, 7, 10, 11, 15, 17, 24, 25, 26,29 DT
     // if column is 1 values are 3: direction, procedure, declaration_type

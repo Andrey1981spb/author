@@ -1,6 +1,6 @@
 package ru.spb.andrey.model.partGeneral;
 
-public class OrganizationColumn {
+public class GenOrganizationColumn {
 
     // Columns 2, 8, 9, 14 DT
     // if organization is a nonrezident (2 or 8 column), fields ogrn, inn, kpp are empty

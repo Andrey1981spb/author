@@ -1,6 +1,6 @@
 package ru.spb.andrey.model.partGeneral;
 
-public class CostCulumn {
+public class GenCostCulumn {
 
     // Columns 12, 22 DT
 
