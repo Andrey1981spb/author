@@ -1,6 +1,6 @@
 package ru.spb.andrey.model.partCargo;
 
-public class SimpleIntColumn {
+public class IntColumn {
 
     // Columns 32, 35, 38, 42, 45, 46 DT
     //  if column is 32 value is single: cargo_count

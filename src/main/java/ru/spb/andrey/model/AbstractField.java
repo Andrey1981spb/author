@@ -1,5 +1,6 @@
 package ru.spb.andrey.model;
 
+import org.hibernate.Hibernate;
 import org.springframework.data.domain.Persistable;
 
 import javax.persistence.*;
@@ -12,7 +13,7 @@ abstract public class AbstractField implements Persistable<Integer> {
     public static final int START_SEQ = 1;
 
     @Id
-    @SequenceGenerator ( name = "global_seq", sequenceName = "global_seq", allocationSize = 1, initialValue = START_SEQ )
+    @SequenceGenerator ( name = "global_seq", sequenceName = "global_seq", allocationSize = 1 )
     @GeneratedValue ( strategy = GenerationType.SEQUENCE, generator = "global_seq" )
 
 //  See https://hibernate.atlassian.net/browse/HHH-3718 and https://hibernate.atlassian.net/browse/HHH-12034

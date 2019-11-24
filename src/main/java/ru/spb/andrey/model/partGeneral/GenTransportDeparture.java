@@ -1,6 +1,6 @@
 package ru.spb.andrey.model.partGeneral;
 
-public class GenTransportDepartureColumn {
+public class GenTransportDeparture {
 
     //Columns 18, 21 DT. Fields are identical
 

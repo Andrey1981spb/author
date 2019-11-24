@@ -8,7 +8,7 @@ import javax.validation.constraints.NotNull;
 
 @Entity
 @Table ( name = "simple_int_column_part" )
-public class GenSimpleIntColumn extends AbstractField {
+public class GenIntColumn extends AbstractField {
 
     // Columns 3, 4, 5, 6,
     // if column is 3 values are 2: list_order, lists_total
@@ -16,17 +16,17 @@ public class GenSimpleIntColumn extends AbstractField {
     // if column is 5 value is single: cargo_count
     // if column is 6 value is single: cargo_place_count
 
-    public GenSimpleIntColumn() {
+    public GenIntColumn() {
     }
 
-    public GenSimpleIntColumn(Integer id, @Range @NotNull int number, @NotNull int value1, int value2) {
+    public GenIntColumn(Integer id, @Range @NotNull int number, @NotNull int value1, int value2) {
         super(id);
         this.number = number;
         this.value1 = value1;
         this.value2 = value2;
     }
 
-    public GenSimpleIntColumn(Integer id) {
+    public GenIntColumn(Integer id) {
         super(id);
     }
 
@@ -41,7 +41,6 @@ public class GenSimpleIntColumn extends AbstractField {
 
     @Column ( name = "value2" )
     private int value2;
-
 }
 
 

@@ -1,6 +1,6 @@
 package ru.spb.andrey.model.partCargo;
 
-public class CargoDescriptionColumn {
+public class CargoDescription {
 
     // Column 31 DT
 

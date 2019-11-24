@@ -1,6 +1,6 @@
 package ru.spb.andrey.model.partCargo;
 
-public class SimpleCharColumn {
+public class CharColumn {
 
     // Columns 34, 36, 37, 43 DT
     // if column is 34 value is single: country_origin_code

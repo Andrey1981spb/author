@@ -1,6 +1,6 @@
 package ru.spb.andrey.model.partCargo;
 
-public class CustomeCodeColumn {
+public class CustomeCode {
 
     //Column 33 DT
 

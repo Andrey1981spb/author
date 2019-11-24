@@ -31,7 +31,6 @@
           p:url="${database.url}"
           p:username="${database.username}"
           p:password="${database.password}"/>
-    ПиП
 
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
           p:dataSource-ref="dataSource"

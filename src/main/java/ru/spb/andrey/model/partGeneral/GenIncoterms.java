@@ -1,6 +1,6 @@
 package ru.spb.andrey.model.partGeneral;
 
-public class GenIncotermsColumn {
+public class GenIncoterms {
 
     // Column 20 DT
 

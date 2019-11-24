@@ -4,10 +4,10 @@ import ru.spb.andrey.model.AbstractPart;
 
 public class PartCargo extends AbstractPart {
 
-    private CargoDescriptionColumn cargoDescriptionColumn;
-    private CustomeCodeColumn customeCodeColumn;
+    private CargoDescription cargoDescription;
+    private CustomeCode customeCode;
     private DeiColumn deiColumn;
-    private SimpleCharColumn simpleCharColumn;
-    private SimpleIntColumn simpleIntColumn;
+    private CharColumn charColumn;
+    private IntColumn intColumn;
 
 }

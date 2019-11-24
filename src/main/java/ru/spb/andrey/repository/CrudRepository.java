@@ -2,11 +2,13 @@ package ru.spb.andrey.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.spb.andrey.model.partGeneral.GenSimpleIntColumn;
+import org.springframework.transaction.annotation.Transactional;
+import ru.spb.andrey.model.partGeneral.GenIntColumn;
 
 @Repository
-public interface CrudRepository extends JpaRepository<GenSimpleIntColumn, Integer> {
+@Transactional (readOnly = true)
+public interface CrudRepository extends JpaRepository<GenIntColumn, Integer> {
 
-    GenSimpleIntColumn getById (int id);
+    GenIntColumn getById (int id);
 
 }
